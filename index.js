@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
+const productRoutes = require("./src/routes/productRoutes");
 
 const app = express();
 const PORT = 4000;
@@ -11,6 +12,8 @@ app.use((req, res, next) => {
   console.log(`Processing ${req.method} request to ${req.path}`);
   next();
 });
+
+app.use("/api/v1/products", productRoutes);
 
 async function run() {
   try {
