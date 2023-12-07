@@ -1,14 +1,29 @@
+require("dotenv").config();
 const express = require("express");
+const mongoose = require("mongoose");
 
 const app = express();
 const PORT = 4000;
 
-app.get("/home", (req, res) => {
-  res.status(200).json("Welcome, your app is working well");
+app.use(express.json());
+
+app.use((req, res, next) => {
+  console.log(`Processing ${req.method} request to ${req.path}`);
+  next();
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-});
+async function run() {
+  try {
+    mongoose.set("strictQuery", false);
+    const conn = await mongoose.connect(process.env.MONGODB_URI);
+    console.log(`MongoDB connected: ${conn.connection.host}`);
+    app.listen(PORT, () => {
+      console.log(`Server running on http://localhost:${PORT}`);
+    });
+  } catch (error) {
+    console.log(error);
+  }
+}
+run();
 
 module.exports = app;
