@@ -1,5 +1,6 @@
 require("dotenv").config();
 const express = require("express");
+const cors = require("cors");
 const mongoose = require("mongoose");
 const productRoutes = require("./src/routes/productRoutes");
 
@@ -7,6 +8,13 @@ const app = express();
 const PORT = 4000;
 
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: ["http://localhost:5173"],
+    methods: ["GET", "PUT", "POST", "DELETE"],
+  })
+);
 
 app.use((req, res, next) => {
   console.log(`Processing ${req.method} request to ${req.path}`);
