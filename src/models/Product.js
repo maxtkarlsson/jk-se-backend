@@ -14,6 +14,10 @@ const ProductSchema = new mongoose.Schema({
     enum: ["ring", "necklace", "earring", "bracelet"],
     required: true,
   },
+  price: {
+    type: Number,
+    required: true,
+  },
   imageUrls: {
     productImages: {
       small: {
