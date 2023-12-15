@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const productRoutes = require("./src/routes/productRoutes");
+const requestRoutes = require("./src/routes/requestRoutes");
 
 const app = express();
 const PORT = 4000;
@@ -22,6 +23,7 @@ app.use((req, res, next) => {
 });
 
 app.use("/api/v1/products", productRoutes);
+app.use("/api/v1/requests", requestRoutes);
 
 async function run() {
   try {
