@@ -3,16 +3,41 @@ exports.mockProductData = [
     name: "Ring",
     description: "This is a ring of gold.",
     category: "ring",
+    price: 5000,
     imageUrls: {
       productImages: {
-        small: ["small1", "small2", "small3"],
-        medium: ["mediaum1", "Medium2", "MEdium3"],
-        large: ["large1", "large2", "large3"],
+        small: [
+          "../assets/productImages/81x57.png",
+          "../assets/productImages/81x57.png",
+          "../assets/productImages/81x57.png",
+        ],
+        medium: [
+          "../assets/productImages/464x323.png",
+          "../assets/productImages/464x323.png",
+          "../assets/productImages/464x323.png",
+        ],
+        large: [
+          "../assets/productImages/624x415.png",
+          "../assets/productImages/624x415.png",
+          "../assets/productImages/624x415.png",
+        ],
       },
       modelImages: {
-        small: ["small1", "small2", "small3"],
-        medium: ["mediaum1", "Medium2", "MEdium3"],
-        large: ["large1", "large2", "large3"],
+        small: [
+          "../assets/productImages/81x57.png",
+          "../assets/productImages/81x57.png",
+          "../assets/productImages/81x57.png",
+        ],
+        medium: [
+          "../assets/productImages/464x323.png",
+          "../assets/productImages/464x323.png",
+          "../assets/productImages/464x323.png",
+        ],
+        large: [
+          "../assets/productImages/624x415.png",
+          "../assets/productImages/624x415.png",
+          "../assets/productImages/624x415.png",
+        ],
       },
     },
   },
@@ -20,16 +45,41 @@ exports.mockProductData = [
     name: "Necklace",
     description: "This necklace is made of diamonds and gold",
     category: "necklace",
+    price: 5000,
     imageUrls: {
       productImages: {
-        small: ["small1", "small2", "small3"],
-        medium: ["mediaum1", "Medium2", "MEdium3"],
-        large: ["large1", "large2", "large3"],
+        small: [
+          "../assets/productImages/81x57.png",
+          "../assets/productImages/81x57.png",
+          "../assets/productImages/81x57.png",
+        ],
+        medium: [
+          "../assets/productImages/464x323.png",
+          "../assets/productImages/464x323.png",
+          "../assets/productImages/464x323.png",
+        ],
+        large: [
+          "../assets/productImages/624x415.png",
+          "../assets/productImages/624x415.png",
+          "../assets/productImages/624x415.png",
+        ],
       },
       modelImages: {
-        small: ["small1", "small2", "small3"],
-        medium: ["mediaum1", "Medium2", "MEdium3"],
-        large: ["large1", "large2", "large3"],
+        small: [
+          "../assets/productImages/81x57.png",
+          "../assets/productImages/81x57.png",
+          "../assets/productImages/81x57.png",
+        ],
+        medium: [
+          "../assets/productImages/464x323.png",
+          "../assets/productImages/464x323.png",
+          "../assets/productImages/464x323.png",
+        ],
+        large: [
+          "../assets/productImages/624x415.png",
+          "../assets/productImages/624x415.png",
+          "../assets/productImages/624x415.png",
+        ],
       },
     },
   },
