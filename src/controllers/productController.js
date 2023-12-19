@@ -1,4 +1,5 @@
 const Product = require("../models/Product");
+const { NotFoundError } = require("../utils/errors");
 
 exports.getAllProducts = async (req, res) => {
   const limit = Number(req.query?.limit || 20);

@@ -1,9 +1,12 @@
 require("dotenv").config();
+require("express-async-errors");
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 const productRoutes = require("./src/routes/productRoutes");
 const requestRoutes = require("./src/routes/requestRoutes");
+const { errorMiddleware } = require("./src/middleware/errorMiddleware");
+const { notFoundMiddleware } = require("./src/middleware/notFoundMiddleware");
 
 const app = express();
 const PORT = 4000;
@@ -24,6 +27,9 @@ app.use((req, res, next) => {
 
 app.use("/api/v1/products", productRoutes);
 app.use("/api/v1/requests", requestRoutes);
+
+app.use(notFoundMiddleware);
+app.use(errorMiddleware);
 
 async function run() {
   try {
