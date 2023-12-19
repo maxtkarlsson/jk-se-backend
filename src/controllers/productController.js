@@ -11,7 +11,7 @@ exports.getAllProducts = async (req, res) => {
   const totalProductsInDatabase = await Product.countDocuments();
 
   return res.json({
-    data: products,
+    products: products,
     meta: {
       total: totalProductsInDatabase,
       limit: limit,
