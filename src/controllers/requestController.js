@@ -7,12 +7,21 @@ exports.getAllRequests = async (req, res) => {
 };
 
 exports.createRequest = async (req, res) => {
-  const response = await Request.create({
-    type: req.body.type,
-    productId: req.body.productId,
-    email: req.body.email,
-    phoneNr: req.body.phoneNr,
-    text: req.body.text,
-  });
-  return res.json(response);
+  try {
+    const newRequest = await Request.create({
+      type: req.body.type,
+      productId: req.body.productId,
+      email: req.body.email,
+      phoneNr: req.body.phoneNr,
+      text: req.body.text,
+    });
+
+    return res.status(201).json(newRequest);
+  } catch (error) {
+    console.error(error);
+
+    return res.status(500).json({
+      message: error.message,
+    });
+  }
 };
