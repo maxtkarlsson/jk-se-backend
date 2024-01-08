@@ -13,9 +13,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -30,9 +30,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -56,9 +56,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -73,9 +73,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -99,9 +99,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -116,9 +116,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -142,9 +142,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -159,9 +159,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -185,9 +185,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -202,9 +202,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -228,9 +228,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -245,9 +245,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -271,9 +271,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -288,9 +288,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -314,9 +314,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -331,9 +331,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -357,9 +357,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
@@ -374,9 +374,9 @@ exports.mockProductData = [
           "../assets/productImages/81x57.png",
         ],
         medium: [
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
-          "../assets/productImages/464x323.png",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
+          "https://raw.githubusercontent.com/maxtkarlsson/jk-se/main/public/productImages/464x348/jennyprodukt26maj2016nr171-464x348.webp",
         ],
         large: [
           "../assets/productImages/624x415.png",
