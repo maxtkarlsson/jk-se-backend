@@ -2,23 +2,40 @@ const Product = require("../models/Product");
 const { NotFoundError } = require("../utils/errors");
 
 exports.getAllProducts = async (req, res) => {
-  const limit = Number(req.query?.limit || 20);
+  try {
+    const page = Number(req.query?.page || 1);
 
-  const offset = Number(req.query?.offset || 0);
+    const pageSize = Number(req.query?.limit || 6);
 
-  const products = await Product.find().limit(limit).skip(offset);
+    const skip = (page - 1) * pageSize;
 
-  const totalProductsInDatabase = await Product.countDocuments();
+    const totalProductsInDatabase = await Product.countDocuments();
 
-  return res.json({
-    products: products,
-    meta: {
-      total: totalProductsInDatabase,
-      limit: limit,
-      offset: offset,
-      count: products.length,
-    },
-  });
+    const pages = Math.ceil(totalProductsInDatabase / pageSize);
+
+    const products = await Product.find().skip(skip).limit(pageSize);
+
+    if (page > pages) {
+      return res.status(404).json({
+        status: "fail",
+        message: "No page found",
+      });
+    }
+
+    return res.status(200).json({
+      products: products,
+      meta: {
+        status: "success",
+        total: totalProductsInDatabase,
+        count: products.length,
+        page: page,
+        pages: pages,
+      },
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ status: "error", message: "Server Error" });
+  }
 };
 
 exports.getProductById = async (req, res) => {
