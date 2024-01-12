@@ -1,0 +1,8 @@
+// For connection to mongoDB
+MONGODB_URI = url;
+
+// For local port
+PORT = 4000;
+
+// For sending the request email via SendGrid
+SENDGRID_API_KEY = key;
