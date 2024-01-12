@@ -2,7 +2,8 @@
 
 ## Description
 
-This is the backend part of my project: https://github.com/maxtkarlsson/jk-se
+This repository is the backend part of my exam project.
+The frontend repository can be found here: https://github.com/maxtkarlsson/jk-se
 
 ## Tech-stack
 
@@ -53,7 +54,7 @@ npm run dev
 It will run on:
 
 ```
-http://localhost:5173/
+http://localhost:4000/api/v1/
 ```
 
 ## Commits
